@@ -10,6 +10,7 @@ const config: Config = {
         extend: {
             backgroundImage: {
                 about: "url('/images/about.jpg')",
+                service: "url('/images/services.jpg')",
             },
         },
     },
