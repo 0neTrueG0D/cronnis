@@ -7,7 +7,7 @@ function Artworks() {
         <div className="min-h-screen w-screen flex items-center justify-center bg-fixed bg-cover bg-artwork">
             <div className="w-full p-5">
                 <div className="max-w-6xl mx-auto">
-                    <h2 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-cyan-300">
+                    <h2 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-cyan-300 mt-16">
                         Artworks
                     </h2>
                     <div className="flex flex-col gap-5 mt-16 border-2 border-cyan-300">
@@ -35,7 +35,7 @@ function Artworks() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col gap-5 mt-16 border-2 border-cyan-300">
+                    <div className="flex flex-col gap-5 mt-5 border-2 border-cyan-300">
                         <div className="flex flex-col md:flex-row">
                             <Image
                                 src="/images/art2.jpg"
@@ -61,7 +61,7 @@ function Artworks() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-5 mt-16 border-2 border-cyan-300">
+                    <div className="flex flex-col gap-5 mt-5 border-2 border-cyan-300">
                         <div className="flex flex-col md:flex-row">
                             <Image
                                 src="/images/art3.jpg"
@@ -87,7 +87,7 @@ function Artworks() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-5 mt-16 border-2 border-cyan-300">
+                    <div className="flex flex-col gap-5 mt-5 border-2 border-cyan-300">
                         <div className="flex flex-col md:flex-row">
                             <Image
                                 src="/images/art4.jpg"
