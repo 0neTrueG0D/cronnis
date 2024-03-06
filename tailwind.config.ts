@@ -11,6 +11,7 @@ const config: Config = {
             backgroundImage: {
                 about: "url('/images/about.jpg')",
                 service: "url('/images/services.jpg')",
+                artwork: "url('/images/artwork.jpg')",
             },
         },
     },
