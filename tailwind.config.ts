@@ -12,6 +12,7 @@ const config: Config = {
                 about: "url('/images/about.jpg')",
                 service: "url('/images/services.jpg')",
                 artwork: "url('/images/artwork.jpg')",
+                contact: "url('/images/contact.jpg')",
             },
         },
     },
