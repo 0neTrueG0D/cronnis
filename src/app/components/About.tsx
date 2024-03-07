@@ -1,7 +1,10 @@
 import Image from "next/image";
 function About() {
     return (
-        <div className="min-h-screen w-screen flex items-center justify-center bg-fixed bg-cover bg-about">
+        <div
+            id="about"
+            className="min-h-screen w-screen flex items-center justify-center bg-fixed bg-cover bg-about"
+        >
             <div className="w-full p-5">
                 <div className="max-w-4xl mx-auto">
                     <Image
@@ -33,9 +36,12 @@ function About() {
                             is known for his unique sound and style. He is
                             currently working on new music and projects.
                         </p>
-                        <button className="my-16 py-3 px-10 text-cyan-300 border-2 border-cyan-300 uppercase text-lg font-semibold cursor-pointer hover:bg-cyan-300 hover:text-black duration-300">
+                        <a
+                            href="#"
+                            className="my-16 py-3 px-10 text-cyan-300 border-2 border-cyan-300 uppercase text-lg font-semibold cursor-pointer hover:bg-cyan-300 hover:text-black duration-300"
+                        >
                             Read More
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
