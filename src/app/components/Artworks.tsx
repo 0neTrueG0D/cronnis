@@ -4,9 +4,12 @@ import { AudioPlayer } from "react-audio-play";
 
 function Artworks() {
     return (
-        <div className="min-h-screen w-screen flex items-center justify-center bg-fixed bg-cover bg-artwork">
+        <div
+            id="artworks"
+            className="min-h-screen w-screen flex items-center justify-center bg-fixed bg-cover bg-artwork"
+        >
             <div className="w-full p-5">
-                <div className="max-w-6xl mx-auto">
+                <div className="max-w-6xl mx-auto mb-16">
                     <h2 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-cyan-300 mt-16">
                         Artworks
                     </h2>
