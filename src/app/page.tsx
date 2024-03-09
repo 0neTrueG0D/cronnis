@@ -13,7 +13,7 @@ export default function Home() {
             <Artworks />
             <Contact />
             <footer className="w-full bg-gray-900 text-cyan-50 text-lg flex items-center justify-center">
-                <p className="p-5">
+                <p className="p-5 text-center">
                     Copyright &copy; Arawn Cronnis 2024. All rights reserved.
                 </p>
             </footer>
