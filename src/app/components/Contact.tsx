@@ -23,11 +23,41 @@ function Contact() {
                                 Get in Touch
                             </h4>
                             <div className="text-xl text-cyan-50 flex flex-col mt-5 items-center md:items-start">
-                                <a href="">Instagram</a>
-                                <a href="">Linkedin</a>
-                                <a href="">Twitter</a>
-                                <a href="">YouTube</a>
-                                <a href="">Spotify</a>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.instagram.com/arawn_cronnis?igsh=MXZxZTFpbHlyN2Vrag=="
+                                >
+                                    Instagram
+                                </a>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.linkedin.com/in/irshad-mohamed-335707308"
+                                >
+                                    Linkedin
+                                </a>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://x.com/Arawn_cronnis"
+                                >
+                                    Twitter
+                                </a>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://youtube.com/@arawncronnis3112?si=xb0p4UAAFB1y4GMs"
+                                >
+                                    YouTube
+                                </a>
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://on.soundcloud.com/zxqP9"
+                                >
+                                    Soundcloud
+                                </a>
                             </div>
                         </div>
                         <div className="flex flex-col items-center md:items-start w-full">
@@ -36,7 +66,7 @@ function Contact() {
                             </h4>
                             <div className="text-xl text-cyan-50 flex flex-col mt-5 items-center md:items-start">
                                 <p>thewatcher025@gmail.com</p>
-                                <p className="mt-5">+91 1234567890</p>
+                                <p className="mt-5">+91 7709568741</p>
                             </div>
                         </div>
                     </div>
