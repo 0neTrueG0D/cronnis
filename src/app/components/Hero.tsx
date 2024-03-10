@@ -7,7 +7,7 @@ function Hero() {
             <div className="absolute top-0 w-full">
                 <div className="max-w-6xl mx-auto text-cyan-50 text-md flex justify-between items-center p-5">
                     <div className=" text-yellow-400 text-2xl md:text-3xl font-extrabold">
-                        AC
+                        A<span className="text-cyan-300">C</span>
                     </div>
                     <div className="md:flex gap-5 uppercase hidden">
                         <a href="#home" className="hover:text-yellow-400">
